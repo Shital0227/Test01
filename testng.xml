@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="ShypBuddySuite">
+  <parameter name="Browsers" value="chrome"/> <!-- or firefox -->
+  <test name="LoginTest">
+    <classes>
+      <class name="package.test.shypBuddyLoginTest"/>
+    </classes>
+  </test>
+</suite>
